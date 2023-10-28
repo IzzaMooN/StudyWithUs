@@ -1,5 +1,5 @@
  .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('images/Graduate_3.png');
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("images/Graduate_3.png");
   background-position: 50% 50%;
 }
 
@@ -393,7 +393,7 @@
     margin-left: initial;
   }
 } .u-section-4 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('images/math_2.jpeg');
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("images/math_2.jpeg");
   background-position: 50% 50%;
 }
 
@@ -734,7 +734,7 @@
     width: 340px;
   }
 } .u-section-7 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('images/Kimia.png');
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("images/Kimia.png");
   background-position: 50% 73.59%;
 }
 
@@ -972,7 +972,7 @@
     width: 340px;
   }
 } .u-section-9 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('images/Pyshicis.jpg');
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("images/Pyshicis.jpg");
   background-position: 50% 90.9%;
 }
 
@@ -1215,7 +1215,7 @@
     width: 340px;
   }
 } .u-section-11 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('images/Mountain.jpg');
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("images/Mountain.jpg");
   background-position: 50% 50%;
 }
 
