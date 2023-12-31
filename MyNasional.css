@@ -1,5 +1,5 @@
  .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/Untitleddesign1.png');
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("images/Untitleddesign1.png");
   background-position: 50% 50%;
 }
 
@@ -246,9 +246,14 @@
   }
 
   .u-section-2 .u-image-1 {
-    height: 347px;
-    margin-right: initial;
-    margin-left: initial;
+    height: 290px;
+    width: 435px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .u-section-2 .u-btn-1 {
+    font-size: 1.25rem;
   }
 
   .u-section-2 .u-container-layout-2 {
@@ -257,9 +262,14 @@
   }
 
   .u-section-2 .u-image-2 {
-    height: 347px;
-    margin-right: initial;
-    margin-left: initial;
+    height: 290px;
+    width: 435px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .u-section-2 .u-btn-2 {
+    font-size: 1.25rem;
   }
 
   .u-section-2 .u-container-layout-3 {
@@ -268,30 +278,30 @@
   }
 
   .u-section-2 .u-image-3 {
-    height: 347px;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
+    height: 290px;
+    width: 435px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .u-section-2 .u-btn-3 {
+    font-size: 1.25rem;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-2 .u-image-1 {
     height: 214px;
-    margin-right: initial;
-    margin-left: initial;
+    width: 320px;
   }
 
   .u-section-2 .u-image-2 {
     height: 214px;
-    margin-right: initial;
-    margin-left: initial;
+    width: 320px;
   }
 
   .u-section-2 .u-image-3 {
     height: 214px;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
+    width: 320px;
   }
 }
