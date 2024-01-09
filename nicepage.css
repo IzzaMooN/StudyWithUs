@@ -43622,7 +43622,7 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-menu-1 {
     width: auto;
     margin-top: 0;
-    margin-right: calc(((100% - 340px) / 2) + -40px);
+    margin-right: calc(((100% - 340px) / 2) + -20px);
     margin-bottom: 0;
   }
 
