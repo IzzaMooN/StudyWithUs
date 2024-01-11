@@ -88,7 +88,7 @@
 
 @media (max-width: 575px) {
    .u-section-1 {
-    min-height: 256px;
+    min-height: 236px;
   }
 
   .u-section-1 .u-image-1 {
@@ -101,12 +101,13 @@
     width: 139px;
     height: 90px;
     margin-top: -86px;
+    margin-right: calc(((100% - 340px) / 2));
   }
 
   .u-section-1 .u-image-3 {
-    width: 340px;
-    height: 74px;
-    margin-top: 22px;
+    width: 257px;
+    height: 50px;
+    margin-top: 3px;
   }
 } .u-section-2 {
   background-image: none;
@@ -350,64 +351,38 @@
     margin-bottom: -102px;
   }
 } .u-section-4 {
-  background-image: none;
+  background-image: linear-gradient(0deg, rgba(247,216,187,0.25), rgba(247,216,187,0.25)), url("images/image16.png");
 }
 
 .u-section-4 .u-sheet-1 {
-  min-height: 1286px;
-}
-
-.u-section-4 .u-image-1 {
-  height: 1086px;
-  margin-top: 100px;
-  margin-bottom: 60px;
+  min-height: 100vh;
 }
 
 @media (max-width: 1199px) {
   .u-section-4 .u-sheet-1 {
-    min-height: 1087px;
-  }
-
-  .u-section-4 .u-image-1 {
-    height: 937px;
-    margin-bottom: 50px;
+    min-height: 858px;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-4 .u-sheet-1 {
-    min-height: 825px;
-  }
-
-  .u-section-4 .u-image-1 {
-    height: 725px;
-    margin-bottom: -301px;
+    min-height: 643px;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-4 .u-sheet-1 {
-    min-height: 716px;
-  }
-
-  .u-section-4 .u-image-1 {
-    height: 566px;
-    width: 641px;
-    margin-left: -51px;
-    margin-right: -51px;
-    margin-bottom: 50px;
+    min-height: 488px;
   }
 }
 
 @media (max-width: 575px) {
-  .u-section-4 .u-sheet-1 {
-    min-height: 427px;
+   .u-section-4 {
+    background-position: 50% 50%;
   }
 
-  .u-section-4 .u-image-1 {
-    height: 367px;
-    width: 424px;
-    margin: 30px auto 30px -34px;
+  .u-section-4 .u-sheet-1 {
+    min-height: 305px;
   }
 } .u-section-5 {
   background-image: none;
@@ -448,9 +423,10 @@
   }
 
   .u-section-5 .u-image-1 {
-    height: 91px;
-    margin-right: initial;
-    margin-left: initial;
-    width: auto;
+    height: 77px;
+    width: 379px;
+    margin-top: 49px;
+    margin-bottom: 49px;
+    margin-left: 0;
   }
 }
