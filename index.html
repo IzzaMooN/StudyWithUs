@@ -76,8 +76,8 @@
         }
 
         .btn1 {
-            width: 60%;
-            max-width: 600px ;
+            width: 50%;
+            max-width: 750px ;
             padding: 1%;
             border: none;
             border-radius: 7% / 50%;
@@ -95,8 +95,8 @@
         }
 
         .btn2 {
-            width: 50%;
-            max-width: 500px;
+            width: 40%;
+            max-width: 650px;
             padding: 1%;
             border: none;
             border-radius: 8% / 50%;
@@ -114,8 +114,8 @@
         }
 
         .btn3 {
-            width: 40%;
-            max-width: 450px;
+            width: 35%;
+            max-width: 550px;
             padding: 1%;
             border: none;
             border-radius:8% / 50%;
@@ -363,11 +363,16 @@
 
         .close-btn {
             position: absolute;
-            top: 10px;
+            top: 22px;
             left: 20px;
-            font-size: 30px;
+            font-size: 50px;
             color: black;
             cursor: pointer;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .close-btn:hover {
+            color: white;
         }
 
         .sidebar {
@@ -379,24 +384,45 @@
             background-color: #e79118;
             overflow-x: hidden;
             transition: right 0.3s ease-in-out;
-            padding-top: 60px;
+            padding-top: 5px;
         }
 
+        .sidebar p {
+            padding: 0px 16px;
+            text-decoration: none;
+            font-size: 30px;
+            font-weight: bold;
+            color: black;
+            display: block;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 12%;
+        }
 
         .sidebar a {
             padding: 12px 16px;
+            width: 50%;
             text-decoration: none;
             font-size: 18px;
-            color: white; /* Warna teks default */
+            font-weight: bold;
+            color: #1b3d21;
+            border-radius: 15px;
+            border: 1px solid #d4cfc5;
+            background: #f5efe3;
             display: block;
             text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 3%;
+            margin-bottom: 5%;
             transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
         }
 
 
         .sidebar a:hover {
-            background-color: #fdf6ec;
-            color: black; /* Pastikan warna teks cukup kontras */
+            background-color: #8a570f;
+            color: white; /* Pastikan warna teks cukup kontras */
         }
 
         /* CSS untuk Header */
@@ -437,10 +463,10 @@
     <!-- Sidebar -->
     <div id="mySidebar" class="sidebar">
         <span class="close-btn" onclick="closeNav()">×</span>
+        <p>Navbar</p>
         <a href="#">Home</a>
         <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Contact</a>
+        <a href="#">Course</a>
     </div>
 
 
@@ -563,9 +589,9 @@
 
             let sdivWidth = shortcutDiv.clientWidth; // Ambil lebar div
 
-            sh1.style.fontSize = sdivWidth * 0.030 + 'px'; // 100% dari lebar div
-            sh2.style.fontSize = sdivWidth * 0.030 + 'px'; // 50% dari lebar div
-            sh3.style.fontSize = sdivWidth * 0.030 + 'px'; // 50% dari lebar div
+            sh1.style.fontSize = sdivWidth * 0.03 + 'px'; // 100% dari lebar div
+            sh2.style.fontSize = sdivWidth * 0.03 + 'px'; // 50% dari lebar div
+            sh3.style.fontSize = sdivWidth * 0.03 + 'px'; // 50% dari lebar div
         }
 
         window.addEventListener('resize', resizeText3);
