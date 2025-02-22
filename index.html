@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Study With Us</title>
+    <title>Study Bar</title>
     <style>
 
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
@@ -35,8 +35,33 @@
             background-color: black;
         }
 
+        @media screen and (max-width: 768px) {
+            .nav-links a {
+                display: none;
+            }
+            .container2 {
+                display: none !important;
+            }
+            .container1 {
+                display: none !important;
+            }
+        }
 
 
+        @media screen and (min-width: 768px) {
+            .hamburger {
+                display: none;
+            }
+            .container21 {
+                display: none !important;
+            }
+            .container22 {
+                display: none !important;
+            }
+        }
+
+
+        /* --------------------------------------------------------------------------------------------------------------------------------------------------- */
         /* CSS untuk Home part-3 */
         .container3 {
             display: flex;
@@ -57,8 +82,8 @@
         }
 
         .tips img {
-            width: 100%;
-            max-width: 1100px;
+            width: 85%;
+            max-width: 1000px;
         }
 
 
@@ -76,11 +101,11 @@
         }
 
         .btn1 {
-            width: 50%;
+            width: 45%;
             max-width: 750px ;
             padding: 1%;
             border: none;
-            border-radius: 7% / 50%;
+            border-radius: 8% / 50%;
             font-weight: bold;
             color: white;
             font-family: 'Comic Sans';
@@ -95,8 +120,8 @@
         }
 
         .btn2 {
-            width: 40%;
-            max-width: 650px;
+            width: 38%;
+            max-width: 700px;
             padding: 1%;
             border: none;
             border-radius: 8% / 50%;
@@ -133,7 +158,7 @@
         }
 
 
-
+        /* --------------------------------------------------------------------------------------------------------------------------------------------------- */
         /* CSS untuk Home part-2 */
         .container2 {
             display: flex;
@@ -195,6 +220,78 @@
 
 
 
+        /* --------------------------------------------------------------------------------------------------------------------------------------------------- */
+        /* CSS untuk Home part-21 */
+        .container21 {
+            display: flex;
+            background: #FCFAEF;
+            height: auto;
+            justify-content: space-between;
+        }
+
+        .explore21 {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 5%;
+            width: 75%;
+            line-height: 0.5;/* Mengurangi jarak antar teks */
+        }
+
+        .explore21 h1 {
+            font-family: 'Lemon Milk';
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #E7B436; /* Warna emas */
+            text-shadow: -5px 0px #1A237E; /* Shadow biru ke kiri atas */
+        }
+
+        .explore21 h2 {
+            font-family: 'Lemon Milk';
+            font-weight: bold;
+            text-transform: uppercase;
+            color: transparent;
+            -webkit-text-stroke: 1px #1A237E; /* Outline biru tua */
+        }
+
+
+
+        /* --------------------------------------------------------------------------------------------------------------------------------------------------- */
+        /* CSS untuk Home part-22 */
+        .container22 {
+            display: flex;
+            background: #FCFAEF;
+            height: auto;
+            justify-content: space-between;
+        }
+
+        .mapel22 {
+            display: flex;
+            flex-wrap: wrap;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 5%;
+            margin-top: 5%;
+            width: 100%;
+            align-content: center;
+            justify-content: center;
+        }
+
+        .mapel22 img {
+            width: 28%;
+            margin-right: 7%;
+            margin-left: 7%;
+            margin-bottom: 10%;
+            transition: transform 0.3s ease-in-out; /* Animasi smooth */
+        }
+
+        .mapel22 img:hover {
+            transform: scale(1.3); /* Memperbesar gambar saat hover */
+        }
+
+
+        /* --------------------------------------------------------------------------------------------------------------------------------------------------- */
         /* CSS untuk Home part-1 */
         .container1 {
             display: flex;
@@ -243,7 +340,68 @@
         }
 
 
+        /* --------------------------------------------------------------------------------------------------------------------------------------------------- */
+        /* CSS untuk Home part-11 */
+        .container11 {
+            display: flex;
+            background: #F7D8BB;
+            height: auto;
+            justify-content: space-between;
+        }
 
+        .swuicon11 {
+            height: auto;
+            padding-top: 4%;
+            padding-left: 3%;
+            width: 25%;
+        }
+
+        .swuicon11 img {
+            width: 100%;
+        }
+
+        .appleguy11 {
+            height: auto;
+            margin-left: auto; /* Menempelkan elemen ke kanan */
+            width: 25%;
+        }
+
+        .appleguy11 img {
+            width: 100%;
+        }
+
+
+        /* --------------------------------------------------------------------------------------------------------------------------------------------------- */
+        /* CSS untuk Home part-12 */
+        .container12 {
+            display: flex;
+            background: #F7D8BB;
+            height: auto;
+            justify-content: space-between;
+        }
+
+        .judul12{
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 8%;
+            width: 70%; /* Memastikan lebar div judul penuh */
+        }
+        .judul12 h1{
+            font-family: 'Britannic Bold';
+            font-weight: bold;
+            color: #292F83;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            margin-top: 0;
+            margin-bottom: 5%;
+        }
+        .judul12 h2{
+            font-family: 'Inter';
+            margin-top: 0;
+        }
+
+
+        /* --------------------------------------------------------------------------------------------------------------------------------------------------- */
         /* CSS untuk Header */
         .navbar {
             display: flex;
@@ -355,20 +513,6 @@
             background: #e2dcd3;
         }
 
-
-        @media screen and (max-width: 768px) {
-            .nav-links a {
-                display: none;
-            }
-        }
-
-
-        @media screen and (min-width: 768px) {
-            .hamburger {
-                display: none;
-            }
-        }
-
         .hamburger {
             text-decoration: none;
             color: #1b3d21;
@@ -448,6 +592,8 @@
             color: white; /* Pastikan warna teks cukup kontras */
         }
 
+
+        /* --------------------------------------------------------------------------------------------------------------------------------------------------- */
         /* CSS untuk footer */
         .footer {
             display: flex;
@@ -457,7 +603,7 @@
         }
         .judulfooter {
             width: 100%;
-            max-width: 700px;
+            max-width: 800px;
             color: white;
         }
 
@@ -465,6 +611,7 @@
 </head>
 <body>
 
+    <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
     <!-- html untuk header -->
     <div class="navbar">
         <div class="logo">
@@ -477,7 +624,7 @@
             <a href="#">Home</a>
             <a href="#">About</a>
             <a href="#">Courses</a>
-            <button>Chat</button>
+            <a href="#">Chat</a>
             <button onclick="triggerAnimation()">
                 <img id="searchIcon" src="Asset/Search.png" alt="Search Icon" width="20">
             </button>
@@ -485,6 +632,7 @@
         </div>
     </div>
 
+    <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
     <!-- Sidebar -->
     <div id="mySidebar" class="sidebar">
         <span class="close-btn" onclick="closeNav()">×</span>
@@ -492,10 +640,11 @@
         <a href="#">Home</a>
         <a href="#">About</a>
         <a href="#">Course</a>
+        <a href="#">Chat</a>
     </div>
 
 
-
+    <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
     <!-- html untuk home part-1 -->
     <div class="container1">
         <div class="swuicon">
@@ -511,7 +660,29 @@
     </div>
 
 
+    <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- html untuk home part-11 -->
+    <div class="container11">
+        <div class="swuicon11">
+            <img src="Asset/SWU.png" alt="swuicon">
+        </div>
+        <div class="appleguy11">
+            <img src="Asset/appleguy.png" alt="appleguy">
+        </div>
+    </div>
 
+
+    <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- html untuk home part-12 -->
+    <div class="container12">
+        <div class="judul12">
+            <h1>Study With Us</h1>
+            <h2>Membangun potensi generasi muda sejak dini</h2>
+        </div>
+    </div>
+
+
+    <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
     <!-- html untuk home part-2 -->
     <div class="container2">
         <div class="explore">
@@ -527,7 +698,29 @@
     </div>
 
 
+    <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- html untuk home part-21 -->
+    <div class="container21">
+        <div class="explore21">
+            <h1>EXPLORE</h1>
+            <h2>COURSE</h2>
+        </div>
+    </div>
 
+
+    <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- html untuk home part-22 -->
+    <div class="container22">
+        <div class="mapel22">
+            <img src="Asset/ipa.png" alt="ipa">
+            <img src="Asset/skolastik.png" alt="skolastik">
+            <img src="Asset/design.png" alt="design">
+            <img src="Asset/program.png" alt="program">
+        </div>
+    </div>
+
+
+    <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
     <!-- html untuk home part-3 -->
     <div class="container3">
         <div class="shortcut">
@@ -540,6 +733,9 @@
         </div>        
     </div>
 
+
+    <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- html untuk home footer -->
     <div class="footer">
         <div class="judulfooter">
             <p>Copyright © 2024 by Zett</p>
@@ -548,6 +744,7 @@
 
     <script>
 
+        //-------------------------------------------------------------------------------------------------------------------------------------------------------
         //script untuk header
         function triggerAnimation() {
             const searchBox = document.getElementById('searchBox');
@@ -572,7 +769,7 @@
         }
 
 
-
+        //-------------------------------------------------------------------------------------------------------------------------------------------------------
         //script untuk home part-1
         function resizeText() {
             let judulDiv = document.querySelector('.judul');
@@ -589,7 +786,24 @@
         window.addEventListener('load', resizeText);
 
 
+        //-------------------------------------------------------------------------------------------------------------------------------------------------------
+        //script untuk home part-12
+        function resizeText12() {
+            let judul12Div = document.querySelector('.judul12');
+            let jh11 = document.querySelector('.judul12 h1');
+            let jh12 = document.querySelector('.judul12 h2');
 
+            let jdivWidth12 = judul12Div.clientWidth; // Ambil lebar div
+
+            jh11.style.fontSize = jdivWidth12 * 0.13 + 'px'; // 100% dari lebar div
+            jh12.style.fontSize = jdivWidth12 * 0.043 + 'px'; // 50% dari lebar div
+        }
+
+        window.addEventListener('resize', resizeText12);
+        window.addEventListener('load', resizeText12);
+
+
+        //-------------------------------------------------------------------------------------------------------------------------------------------------------
         //script untuk home part-2
         function resizeText2() {
             let exploreDiv = document.querySelector('.explore');
@@ -606,24 +820,49 @@
         window.addEventListener('load', resizeText2);
 
 
+        //-------------------------------------------------------------------------------------------------------------------------------------------------------
+        //script untuk home part-21
+        function resizeText21() {
+            let explore21Div = document.querySelector('.explore21');
+            let eh21 = document.querySelector('.explore21 h1');
+            let eh22 = document.querySelector('.explore21 h2');
 
+            let edivWidth21 = explore21Div.clientWidth; // Ambil lebar div
+
+            eh21.style.fontSize = edivWidth21 * 0.12 + 'px'; // 100% dari lebar div
+            eh22.style.fontSize = edivWidth21 * 0.12 + 'px'; // 50% dari lebar div
+        }
+
+        window.addEventListener('resize', resizeText21);
+        window.addEventListener('load', resizeText21);
+
+
+        //-------------------------------------------------------------------------------------------------------------------------------------------------------
         //script untuk home part-3
         function resizeText3() {
-            let shortcutDiv = document.querySelector('.shortcut');
+            let btn1Div = document.querySelector('.btn1');
+            let btn2Div = document.querySelector('.btn2');
+            let btn3Div = document.querySelector('.btn3');
+
             let sh1 = document.querySelector('.btn1');
             let sh2 = document.querySelector('.btn2');
             let sh3 = document.querySelector('.btn3');
 
-            let sdivWidth = shortcutDiv.clientWidth; // Ambil lebar div
+            let btn1Width = btn1Div.clientWidth; // Ambil lebar div
+            let btn2Width = btn2Div.clientWidth; // Ambil lebar div
+            let btn3Width = btn3Div.clientWidth; // Ambil lebar div
 
-            sh1.style.fontSize = sdivWidth * 0.03 + 'px'; // 100% dari lebar div
-            sh2.style.fontSize = sdivWidth * 0.03 + 'px'; // 50% dari lebar div
-            sh3.style.fontSize = sdivWidth * 0.03 + 'px'; // 50% dari lebar div
+
+            sh1.style.fontSize = btn1Width * 0.07 + 'px'; // 100% dari lebar div
+            sh2.style.fontSize = btn2Width * 0.08 + 'px'; // 50% dari lebar div
+            sh3.style.fontSize = btn3Width * 0.08 + 'px'; // 50% dari lebar div
         }
 
         window.addEventListener('resize', resizeText3);
         window.addEventListener('load', resizeText3);
 
+
+        //-------------------------------------------------------------------------------------------------------------------------------------------------------
         //script untuk footer
         function resizeTextfooter() {
             let footerDiv = document.querySelector('.judulfooter');
@@ -631,7 +870,7 @@
 
             let fdivWidth = footerDiv.clientWidth; // Ambil lebar div
 
-            fh1.style.fontSize = fdivWidth * 0.015 + 'px'; // 100% dari lebar div
+            fh1.style.fontSize = fdivWidth * 0.028 + 'px'; // 100% dari lebar div
         }
 
         window.addEventListener('resize', resizeTextfooter);
