@@ -448,14 +448,16 @@
             color: white; /* Pastikan warna teks cukup kontras */
         }
 
-        /* CSS untuk Header */
+        /* CSS untuk footer */
         .footer {
             display: flex;
             background: black;
             height: auto;
             padding-left: 1%;
         }
-        .footer p {
+        .judulfooter {
+            width: 100%;
+            max-width: 700px;
             color: white;
         }
 
@@ -539,7 +541,9 @@
     </div>
 
     <div class="footer">
-        <p>Copyright © 2024 by Zett</p>
+        <div class="judulfooter">
+            <p>Copyright © 2024 by Zett</p>
+        </div>
     </div>
 
     <script>
@@ -622,7 +626,7 @@
 
         //script untuk footer
         function resizeTextfooter() {
-            let footerDiv = document.querySelector('.footer');
+            let footerDiv = document.querySelector('.judulfooter');
             let fh1 = document.querySelector('.footer p');
 
             let fdivWidth = footerDiv.clientWidth; // Ambil lebar div
