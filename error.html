@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error 404</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
+<!-- html untuk header -->
+    <div class="navbar">
+        <div class="logo">
+            <img src="Asset/logo.png" alt="Logo">
+        </div>
+        <div class="search-box" id="searchBox">
+            <input type="text" placeholder="Search">
+        </div>
+        <div class="nav-links">
+            <a href="index.html" style="background-color: #bb9344; color: white;">Home</a>
+            <a href="about.html">About</a>
+            <a href="error.html">Courses</a>
+            <a href="error.html">Chat</a>
+            <button onclick="triggerAnimation()">
+                <img id="searchIcon" src="Asset/Search.png" alt="Search Icon" width="20">
+            </button>
+            <button class="hamburger" onclick="openNav()">≣</button>
+        </div>
+    </div>
+
+
+    <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- Sidebar -->
+    <div id="mySidebar" class="sidebar">
+        <span class="close-btn" onclick="closeNav()">×</span>
+        <p>Navbar</p>
+        <a href="index.html" style="background-color: #bb9344; color: white;">Home</a>
+        <a href="about.html">About</a>
+        <a href="error.html">Courses</a>
+        <a href="error.html">Chat</a>
+    </div>
+<!-- End Of html untuk header -->
+
+<div class="error">
+    <div class="error_container1">
+        <div class="appleerror">
+            <img src="Asset/apple_error.png" alt="appleerror">
+        </div>
+        <div class="appleguyerror">
+            <img src="Asset/appleguy_error.png" alt="appleguyerror">
+        </div>
+    </div>
+
+    <div class="error_container2">
+        <div class="pict_error">
+            <img src="Asset/error.png" alt="errorpict">
+        </div>
+    </div>
+
+    <div class="error_container3">
+        <div class="mailerror">
+            <img src="Asset/mail_error.png" alt="mailerror">
+        </div>
+    </div>
+</div>
+
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- html untuk footer -->
+    <div class="footer">
+        <div class="judulfooter">
+            <p>Copyright © 2024 by Zett</p>
+        </div>
+    </div>
+
+    <!-- End Of Body -->
+
+    <script src="script.js"></script>
+</body>
+</html>
