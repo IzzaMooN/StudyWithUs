@@ -119,7 +119,7 @@
 
 // About Script
     //script untuk about part-1
-        function resizeText() {
+        function aboutresizeText() {
             let ajudulDiv = document.querySelector('.about_judul');
             let ajh1 = document.querySelector('.about_judul h1');
             let ajh2 = document.querySelector('.about_judul h2');
@@ -132,8 +132,8 @@
             ajh3.style.fontSize = ajdivWidth * 0.033 + 'px'; // 50% dari lebar div
         }
 
-        window.addEventListener('resize', resizeText);
-        window.addEventListener('load', resizeText);
+        window.addEventListener('resize', aboutresizeText);
+        window.addEventListener('load', aboutresizeText);
 
     
 // End Of About Script
