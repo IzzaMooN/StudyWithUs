@@ -32,10 +32,37 @@
             .nav-links a {
                 display: none;
             }
+
+            /* Home */
             .container2 {
                 display: none !important;
             }
             .container1 {
+                display: none !important;
+            }
+
+            /* About */
+            .about_container1 {
+                display: none !important;
+            }
+            .about_container2 {
+                display: none !important;
+            }
+            .about_container3 {
+                display: none !important;
+            }
+            .about_container4 {
+                display: none !important;
+            }
+
+            /* Error */
+            .error_container1 {
+                display: none !important;
+            }
+            .error_container2 {
+                display: none !important;
+            }
+            .error_container3 {
                 display: none !important;
             }
         }
@@ -45,6 +72,8 @@
             .hamburger {
                 display: none;
             }
+
+            /* Home */
             .container21 {
                 display: none !important;
             }
@@ -55,6 +84,34 @@
                 display: none !important;
             }
             .container12 {
+                display: none !important;
+            }
+
+            /* About */
+            .about_container1_mobile {
+                display: none !important;
+            }
+            .about_container2_mobile {
+                display: none !important;
+            }
+            .about_container2_mobile2 {
+                display: none !important;
+            }
+            .about_container3_mobile {
+                display: none !important;
+            }
+            .about_container4_mobile {
+                display: none !important;
+            }
+
+            /* Error */
+            .error_container1_mobile {
+                display: none !important;
+            }
+            .error_container2_mobile {
+                display: none !important;
+            }
+            .error_container3_mobile {
                 display: none !important;
             }
         }
@@ -704,6 +761,113 @@
             background: #FCFAEF;
             padding-bottom: 35%;
         }
+
+    /*-- Mobile About Style --*/
+        /* About Container-1_mobile */
+            .about_container1_mobile {
+                display: flex;
+                background: #F7D8BB;
+                height: auto;
+                justify-content: space-between;
+            }
+
+            .appleabout_mobile {
+                height: auto;
+                padding-top: 4%;
+                padding-left: 3%;
+                width: 35%;
+            }
+
+            .appleabout_mobile img {
+                width: 100%;
+            }
+
+            .about_judul_mobile {
+                text-align: center;
+                margin-left: 0;
+                margin-right: 10%;
+                margin-bottom: 10%;
+                margin-top: 10%;
+                width: 65%; /* Memastikan lebar div judul penuh */
+            }
+            .about_judul_mobile h1{
+                font-family: 'Britannic Bold';
+                font-weight: bold;
+                color: #292F83;
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+                margin-bottom: 10%;
+            }
+            .about_judul_mobile h2{
+                font-family: 'Inter';
+            }
+            .about_judul_mobile h3{
+                font-family: 'Inter';
+            }
+
+        /* About Container-2_mobile */
+            .about_container2_mobile {
+                display: flex;
+                background: #8A9D89;
+                height: auto;
+                justify-content: space-between;
+                padding-right: 2%;
+                padding-left: 3%;
+                padding-top: 5%;
+            }
+
+            .about_container2_mobile2 {
+                display: flex;
+                background: #8A9D89;
+                height: auto;
+                justify-content: center;
+                padding-top: 5%;
+            }
+
+            .bg1_about_mobile {
+                height: auto;
+                width: 35%;
+            }
+
+            .bg1_about_mobile img {
+                width: 100%;
+            }
+
+            .pict_about_mobile {
+                height: auto;
+                width: 80%;
+            }
+
+            .pict_about_mobile img {
+                width: 100%;
+            }
+
+        /* About Container-3_mobile */
+            .about_container3_mobile {
+                display: flex;
+                background: #8A9D89;
+                height: auto;
+                justify-content: space-between;
+                padding-right: 3%;
+            }
+
+            .bg2_about_mobile {
+                height: auto;
+                margin-left: auto;
+                width: 35%;
+                margin-bottom: 7%;
+            }
+
+            .bg2_about_mobile img {
+                width: 100%;
+            }
+
+        /* About Container-4_mobile */
+            .about_container4_mobile {
+                display: flex;
+                background: #FCFAEF;
+                padding-bottom: 50%;
+        }
+    /*-- End Of Mobile About Style --*/
 /*-- End Of About Style --*/
 
 /*-- Error Style --*/
@@ -771,16 +935,88 @@
         }
 
         .mailerror {
-            height: auto;
             width: 100%;
         }
 
         .mailerror img {
             width: 30%;
+            margin-top: 30%;
             margin-left: 68%;
-            margin-top: 25%;
             margin-bottom: 5%;
         }
+
+    /* -- Mobile Error Style --*/
+        /* About Container-1_mobile*/
+                .error_container1_mobile {
+                    display: flex;
+                    background: #F7D8BB;
+                    height: auto;
+                    justify-content: space-between;
+                }
+
+                .appleerror_mobile {
+                    height: auto;
+                    padding-top: 4%;
+                    padding-left: 3%;
+                    width: 35%;
+                }
+
+                .appleerror_mobile img {
+                    width: 100%;
+                    max-width: 400px;
+                }
+
+                .appleguyerror_mobile {
+                    height: auto;
+                    width: 35%;
+                }
+
+                .appleguyerror_mobile img {
+                    width: 100%;
+                    max-width: 500px;
+                }
+
+        /* About Container-2_mobile */
+                .error_container2_mobile {
+                    display: flex;
+                    background: #F7D8BB;
+                    height: auto;
+                    justify-content: space-between;
+                }
+
+                .pict_error_mobile {
+                    height: auto;
+                    width: 100%;
+                }
+
+                .pict_error_mobile img {
+                    width: 80%;
+                    max-width: 900px;
+                    margin-top: 10%;
+                    margin-left: 10%;
+                    margin-right: 10%;
+                    margin-bottom: 15%;
+                }
+
+        /* About Container-3_mobile */
+                .error_container3_mobile {
+                    display: flex;
+                    background: #FCFAEF;
+                    height: auto;
+                    justify-content: space-between;
+                }
+
+                .mailerror_mobile {
+                    width: 100%;
+                }
+
+                .mailerror_mobile img {
+                    width: 30%;
+                    margin-top: 75%;
+                    margin-left: 68%;
+                    margin-bottom: 5%;
+                }
+    /* -- End Of Mobile Error Style --*/
 /*-- End Of Error Style --*/
 
 /*-- Course Style --*/

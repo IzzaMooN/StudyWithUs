@@ -135,6 +135,23 @@
         window.addEventListener('resize', aboutresizeText);
         window.addEventListener('load', aboutresizeText);
 
+    //script untuk about part-1_mobile
+        function aboutresizeText_mobile() {
+            let ajudulDiv_mobile = document.querySelector('.about_judul_mobile');
+            let ajh1_mobile = document.querySelector('.about_judul_mobile h1');
+            let ajh2_mobile = document.querySelector('.about_judul_mobile h2');
+            let ajh3_mobile = document.querySelector('.about_judul_mobile h3');
+
+            let ajdivWidth_mobile = ajudulDiv_mobile.clientWidth; // Ambil lebar div
+
+            ajh1_mobile.style.fontSize = ajdivWidth_mobile * 0.20 + 'px'; // 100% dari lebar div
+            ajh2_mobile.style.fontSize = ajdivWidth_mobile * 0.048 + 'px'; // 50% dari lebar div
+            ajh3_mobile.style.fontSize = ajdivWidth_mobile * 0.043 + 'px'; // 50% dari lebar div
+        }
+
+        window.addEventListener('resize', aboutresizeText_mobile);
+        window.addEventListener('load', aboutresizeText_mobile);
+
     
 // End Of About Script
 
